@@ -1,6 +1,9 @@
 public class AccWrapperHandler {
     @AuraEnabled
     public static list<Contact> conlist {set;get;}
+
+    @AuraEnabled
+    public static list<Opportunity> oplist {set;get;}
     
     @AuraEnabled
     public static list<Account> acclist {set;get;}
